@@ -1,0 +1,1258 @@
+------ 已启动生成: 项目: GraphicControl_Test_1, 配置: Release Any CPU ------
+Build started 2012/3/8 14:01:55.
+Initial Properties:
+_AfterCompileWinFXInternalDependsOn = 
+        PrepareResourcesForSatelliteAssemblies;
+        MergeLocalizationDirectives;
+        AfterCompileWinFX
+    
+_CompileTargetNameForLocalType = _CompileTemporaryAssembly
+_DebugSymbolsProduced          = true
+_DeploymentApplicationManifestIdentity = GraphicControl_Test_1.exe
+_DeploymentBuiltUpdateInterval = 0
+_DeploymentBuiltUpdateIntervalUnits = Days
+_DeploymentDeployManifestIdentity = GraphicControl_Test_1.application
+_DeploymentFileMappingExtension = 
+_DeploymentPublishableProjectDefault = true
+_DeploymentTargetApplicationManifestFileName = GraphicControl_Test_1.exe.manifest
+_DeploymentUrl                 = 
+_DocumentationFileProduced     = false
+_GetChildProjectCopyToOutputDirectoryItems = true
+_OriginalConfiguration         = Release
+_OriginalPlatform              = AnyCPU
+_RequireMCPass2ForMainAssembly = false
+_RequireMCPass2ForSatelliteAssemblyOnly = false
+_ResolveReferenceDependencies  = true
+_ResourceNameInMainAssembly    = GraphicControl_Test_1.g.resources
+_SGenDllCreated                = false
+_SGenDllName                   = GraphicControl_Test_1.XmlSerializers.dll
+_SGenGenerateSerializationAssembliesConfig = Auto
+AddAppConfigToBuildOutputs     = true
+AllowedReferenceAssemblyFileExtensions = 
+            .exe;
+            .dll
+        
+AllowedReferenceRelatedFileExtensions = 
+            .pdb;
+            .xml
+        
+ALLUSERSPROFILE                = C:\ProgramData
+AlwaysCompileMarkupFilesInSeparateDomain = true
+APPDATA                        = C:\Users\OuroChan\AppData\Roaming
+AppDesignerFolder              = Properties
+AssemblyFoldersSuffix          = AssemblyFoldersEx
+AssemblyName                   = GraphicControl_Test_1
+AssemblySearchPaths            = 
+            {CandidateAssemblyFiles};
+            ;
+            {HintPathFromItem};
+            {TargetFrameworkDirectory};
+            {Registry:Software\Microsoft\.NetFramework,v3.5,AssemblyFoldersEx};
+            {AssemblyFolders};
+            {GAC};
+            {RawFileName};
+            bin\Release\
+        
+AssignTargetPathsDependsOn     = 
+AutoUnifyAssemblyReferences    = false
+AvailablePlatforms             = Any CPU,x86,x64,Itanium
+BaseIntermediateOutputPath     = obj\
+BuildDependsOn                 = 
+      EntityDeploy;
+      
+            BeforeBuild;
+            CoreBuild;
+            AfterBuild
+        
+    
+BuildingInsideVisualStudio     = true
+BuildingProject                = false
+BuildInParallel                = true
+BuildProjectReferences         = true
+BuildSystem                    = MSBuild
+BuildTaskAssembly              = PresentationBuildTasks, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+BuiltProjectOutputGroupDependsOn = PrepareForBuild
+CleanDependsOn                 = 
+      
+            BeforeClean;
+            CleanReferencedProjects;
+            UnmanagedUnregistration;
+            CoreClean;
+            CleanPublishFolder;
+            AfterClean
+        ;
+      EntityClean;
+    
+CleanFile                      = GraphicControl_Test_1.csproj.FileListAbsolute.txt
+CodeAnalysisTargets            = C:\Program Files\MSBuild\Microsoft\VisualStudio\v9.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+CommonProgramFiles             = C:\Program Files\Common Files
+CompileDependsOn               = 
+        
+          ResolveReferences;
+          ResolveKeySource;
+          SetWin32ManifestProperties;
+          _GenerateCompileInputs;
+          BeforeCompile;
+          _TimeStampBeforeCompile;
+          CoreCompile;
+          _TimeStampAfterCompile;
+          AfterCompile
+        ;
+        _AfterCompileWinFXInternal
+    
+CompileLicxFilesDependsOn      = 
+CompileRdlFilesDependsOn       = PrepareRdlFiles;RunRdlCompiler
+ComputeIntermediateSatelliteAssembliesDependsOn = 
+            CreateManifestResourceNames
+        
+COMPUTERNAME                   = OUROCHAN-PC
+ComReferenceNoClassMembers     = false
+ComSpec                        = C:\Windows\system32\cmd.exe
+Configuration                  = Release
+ConfigurationName              = Release
+ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+CoreBuildDependsOn             = 
+              BuildOnlySettings;
+              PrepareForBuild;
+              PreBuildEvent;
+              ResolveReferences;
+              PrepareResources;
+              ResolveKeySource;
+              Compile;
+              UnmanagedUnregistration;
+              GenerateSerializationAssemblies;
+              CreateSatelliteAssemblies;
+              GenerateManifests;
+              GetTargetPath;
+              PrepareForRun;
+              UnmanagedRegistration;
+              IncrementalClean;
+              PostBuildEvent
+        
+CoreCleanDependsOn             = 
+CoreCompileDependsOn           = 
+          DesignTimeMarkupCompilation;
+          _ComputeNonExistentFileProperty
+      
+CoreResGenDependsOn            = 
+CreateCustomManifestResourceNamesDependsOn = 
+CreateManifestResourceNamesDependsOn = 
+CreateSatelliteAssembliesDependsOn = 
+            _GenerateSatelliteAssemblyInputs;
+            ComputeIntermediateSatelliteAssemblies;
+            GenerateSatelliteAssemblies
+        
+CustomAfterMicrosoftCommonTargets = C:\Program Files\MSBuild\v3.5\Custom.After.Microsoft.Common.targets
+CustomBeforeMicrosoftCommonTargets = C:\Program Files\MSBuild\v3.5\Custom.Before.Microsoft.Common.targets
+DebugSymbolsProjectOutputGroupDependsOn = 
+DebugType                      = pdbonly
+DefaultLanguageSourceExtension = .cs
+DefineConstants                = TRACE
+DelaySign                      = 
+DeploymentType                 = Installed
+DevEnvDir                      = E:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\
+DocumentationProjectOutputGroupDependsOn = 
+DXSDK_DIR                      = e:\Program Files\Microsoft DirectX SDK (November 2008)\
+EmbeddedWin32Manifest          = 
+EntityDeployDependsOn          = 
+ErrorReport                    = prompt
+FileAlignment                  = 512
+FP_NO_HOST_CHECK               = NO
+Framework20Dir                 = @(_TargetFramework20DirectoryItem)
+Framework30Dir                 = @(_TargetFramework30DirectoryItem)
+Framework35Dir                 = @(_TargetFramework35DirectoryItem)
+FrameworkDir                   = @(_TargetFramework20DirectoryItem)
+FrameworkRegistryBase          = Software\Microsoft\.NetFramework
+FrameworkSDKDir                = @(_TargetFrameworkSDKDirectoryItem)
+FullReferenceAssemblyNames     = Full
+GenerateClickOnceManifests     = 
+GeneratedFileExtension         = .g.cs
+GenerateManifestsDependsOn     = 
+            SetWin32ManifestProperties;
+            GenerateApplicationManifest;
+            GenerateDeploymentManifest
+        
+GetCopyToOutputDirectoryItemsDependsOn = 
+            AssignTargetPaths;
+            _SplitProjectReferencesByFileExistence
+        
+GetFrameworkPathsDependsOn     = 
+GetReferenceAssemblyPathsDependsOn = 
+        ;
+        GetWinFXPath
+    
+HOME                           = D:\Win7 System's\Desktops
+HOMEDRIVE                      = D:
+HOMEPATH                       = \Win7 System's\Desktops
+HostInBrowser                  = false
+IntermediateOutputPath         = obj\Release\
+IsApplication                  = true
+Language                       = C#
+LoadTimeCheckItemLocation      = 
+            ;
+            AppConfigFileDestination;
+        
+LoadTimeSensitiveItems         = 
+            ;
+            AppConfigWithTargetPath;
+            AppConfigFileDestination;
+        
+LoadTimeSensitiveProperties    = 
+      
+            ;
+            MSBuildProjectFullPath;
+            CustomBeforeMicrosoftCommonTargets;
+            MSBuildExtensionsPath;
+            CodeAnalysisTargets;
+            MSBuildExtensionsPath32;
+            ReportingServicesTargets;
+            MsTestToolsTargets;
+            CustomAfterMicrosoftCommonTargets;
+            CompileDependsOn;
+            ResolveReferencesDependsOn;
+            ResolveAssemblyReferencesDependsOn;
+            GetFrameworkPathsDependsOn;
+            GetReferenceAssemblyPathsDependsOn;
+            PrepareForBuildDependsOn;
+            CoreCompileDependsOn;
+            PrepareResourceNamesDependsOn;
+            CreateManifestResourceNamesDependsOn;
+            BuildingProject;
+            BuildingInsideVisualStudio;
+            ResolveAssemblyReferencesStateFile;
+            CleanFile;
+            MSBuildProjectFile;
+            BaseIntermediateOutputPath;
+            BuiltProjectOutputGroupDependsOn;
+            DebugSymbolsProjectOutputGroupDependsOn;
+            DocumentationProjectOutputGroupDependsOn;
+            SatelliteDllsProjectOutputGroupDependsOn;
+            PrepareResourceNamesDependsOn;
+            CreateManifestResourceNamesDependsOn;
+            SourceFilesProjectOutputGroupDependsOn;
+            ContentFilesProjectOutputGroupDependsOn;
+            SGenFilesOutputGroupDependsOn;
+            AssignTargetPathsDependsOn;
+            CreateCustomManifestResourceNamesDependsOn;
+        ;
+      PrepareResourcesForSatelliteAssembliesDependsOn;
+      MarkupCompilePass1DependsOn;
+    
+LoadTimeSensitiveTargets       = 
+      
+            ;
+            Compile;
+            ResolveReferences;
+            BeforeResolveReferences;
+            SplitProjectReferencesByType;
+            ResolveProjectReferences;
+            ResolveVCProjectReferences;
+            ResolveNativeReferences;
+            ResolveAssemblyReferences;
+            GetFrameworkPaths;
+            GetReferenceAssemblyPaths;
+            PrepareForBuild;
+            ResolveComReferences;
+            ResolveKeySource;
+            AfterResolveReferences;
+            BeforeCompile;
+            CoreCompile;
+            AfterCompile;
+            AllProjectOutputGroupsDependencies;
+            BuildOnlySettings;
+            AssignTargetPaths;
+            BuiltProjectOutputGroupDependencies;
+            DebugSymbolsProjectOutputGroupDependencies;
+            SatelliteDllsProjectOutputGroupDependencies;
+            DocumentationProjectOutputGroupDependencies;
+            SGenFilesOutputGroupDependencies;
+            AllProjectOutputGroups;
+            BuiltProjectOutputGroup;
+            DebugSymbolsProjectOutputGroup;
+            DocumentationProjectOutputGroup;
+            SatelliteDllsProjectOutputGroup;
+            PrepareResourceNames;
+            SplitResourcesByCulture;
+            CreateManifestResourceNames;
+            SourceFilesProjectOutputGroup;
+            ContentFilesProjectOutputGroup;
+            SGenFilesOutputGroup;
+            CopyRunEnvironmentFiles;
+            GetTargetPath;
+            SetWin32ManifestProperties;
+            CreateCustomManifestResourceNames
+        ;
+      GetWinFXPath;
+      DesignTimeMarkupCompilation;
+      MarkupCompilePass1;
+      AfterMarkupCompilePass1;
+      PrepareResourcesForSatelliteAssemblies;
+      SatelliteOnlyMarkupCompilePass2;
+      AddIntermediateAssemblyToReferenceList;
+      MarkupCompilePass2;
+      AfterMarkupCompilePass2;
+      SatelliteResourceGeneration;
+      GenerateResourceWithCultureItem;
+      MergeLocalizationDirectives;
+      AfterCompileWinFX;
+      AssignWinFXEmbeddedResource;
+      SplashScreenValidation;
+    
+LOCALAPPDATA                   = C:\Users\OuroChan\AppData\Local
+LocalizationDirectivesToLocFile = None
+LOGONSERVER                    = \\OUROCHAN-PC
+MarkupCompilePass2ForMainAssemblyDependsOn = 
+                     GenerateTemporaryTargetAssembly;
+                     MarkupCompilePass2;
+                     AfterMarkupCompilePass2;
+                     CleanupTemporaryTargetAssembly
+       
+MaxTargetPath                  = 100
+MSBuildAllProjects             = ;C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.CSharp.targets;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\GraphicControl_Test_1.csproj;C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets
+MSBuildBinPath                 = C:\Windows\Microsoft.NET\Framework\v3.5
+MSBuildExtensionsPath          = C:\Program Files\MSBuild
+MSBuildExtensionsPath32        = C:\Program Files\MSBuild
+MSBuildNodeCount               = 1
+MSBuildProjectDefaultTargets   = Build
+MSBuildProjectDirectory        = D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1
+MSBuildProjectDirectoryNoRoot  = Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1
+MSBuildProjectExtension        = .csproj
+MSBuildProjectFile             = GraphicControl_Test_1.csproj
+MSBuildProjectFullPath         = D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\GraphicControl_Test_1.csproj
+MSBuildProjectName             = GraphicControl_Test_1
+MSBuildStartupDirectory        = E:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE
+MSBuildToolsPath               = C:\Windows\Microsoft.NET\Framework\v3.5
+MSBuildToolsVersion            = 3.5
+MsTestToolsTargets             = C:\Program Files\MSBuild\Microsoft\VisualStudio\v9.0\TeamTest\Microsoft.TeamTest.targets
+NUMBER_OF_PROCESSORS           = 2
+OGRE_HOME                      = G:\Selected Tools\Ogre\OGRE\OgreSDK_vc9_v1-7-2
+Optimize                       = true
+OS                             = Windows_NT
+OSVersion                      = 5.1.2600.0
+OutDir                         = bin\Release\
+OutputPath                     = bin\Release\
+OutputType                     = WinExe
+OverwriteReadOnlyFiles         = false
+Path                           = C:\Program Files\Common Files\Microsoft Shared\Windows Live;E:\PROGRA~1\Borland\CBUILD~1\Bin;E:\PROGRA~1\Borland\CBUILD~1\Projects\Bpl;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\Common Files\TTKN\Bin;c:\MinGW\bin;E:\Program Files\Autodesk\Backburner\;C:\Program Files\Common Files\Autodesk Shared\;e:\Program Files\Windows7Master;E:\Program Files\Windows7Master;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft Windows Performance Toolkit\;E:\Program Files\MASM+5.0;C:\Program Files\Windows Live\Shared
+PATHEXT                        = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+Platform                       = AnyCPU
+PlatformName                   = AnyCPU
+PostBuildEventDependsOn        = 
+PreBuildEventDependsOn         = 
+PrepareForBuildDependsOn       = GetFrameworkPaths
+PrepareForRunDependsOn         = 
+            CopyFilesToOutputDirectory
+        
+PrepareResourceNamesDependsOn  = 
+                    AssignWinFXEmbeddedResource;
+                    
+            AssignTargetPaths;
+            SplitResourcesByCulture;
+            CreateManifestResourceNames;
+            CreateCustomManifestResourceNames            
+        
+      
+PrepareResourcesDependsOn      = 
+                MarkupCompilePass1;
+                AfterMarkupCompilePass1;
+                MarkupCompilePass2ForMainAssembly;
+                FileClassification;
+                MainResourcesGeneration;
+                
+            PrepareResourceNames;
+            ResGen;
+            CompileLicxFiles
+        ;CompileRdlFiles
+      
+PROCESSOR_ARCHITECTURE         = x86
+PROCESSOR_IDENTIFIER           = x86 Family 6 Model 23 Stepping 10, GenuineIntel
+PROCESSOR_LEVEL                = 6
+PROCESSOR_REVISION             = 170a
+ProcessorArchitecture          = x86
+ProductVersion                 = 9.0.21022
+ProgramData                    = C:\ProgramData
+ProgramFiles                   = C:\Program Files
+ProjectDir                     = D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\
+ProjectExt                     = .csproj
+ProjectFileName                = GraphicControl_Test_1.csproj
+ProjectFlavor                  = Client
+ProjectGuid                    = {B5678DE2-B558-40D6-A177-5DFFC9E011F0}
+ProjectName                    = GraphicControl_Test_1
+ProjectPath                    = D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\GraphicControl_Test_1.csproj
+PSModulePath                   = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC                         = C:\Users\Public
+PublishableProject             = true
+PublishBuildDependsOn          = 
+            BuildOnlySettings;
+            PrepareForBuild;
+            ResolveReferences;
+            PrepareResources;
+            ResolveKeySource;
+            PrepareResourcesForSatelliteAssemblies;
+            GenerateSerializationAssemblies;
+            CreateSatelliteAssemblies;
+        
+PublishDependsOn               = 
+            SetGenerateManifests;
+            Build;
+            PublishOnly
+        
+PublishDir                     = bin\Release\app.publish\
+PublishOnlyDependsOn           = 
+            SetGenerateManifests;
+            PublishBuild;
+            BeforePublish;
+            GenerateManifests;
+            CopyFilesToOutputDirectory;
+            CleanPublishFolder;
+            _CopyFilesToPublishFolder;
+            _DeploymentGenerateBootstrapper;
+            ResolveKeySource;
+            _DeploymentSignClickOnceDeployment;
+            AfterPublish
+        
+RebuildDependsOn               = 
+            BeforeRebuild;
+            Clean;
+            Build;
+            AfterRebuild;
+        
+ReportingServicesTargets       = C:\Program Files\MSBuild\Microsoft\VisualStudio\v9.0\ReportingServices\Microsoft.ReportingServices.targets
+ResGenDependsOn                = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+ResolveAssemblyReferencesDependsOn = 
+            GetFrameworkPaths;
+            GetReferenceAssemblyPaths;
+            PrepareForBuild
+        
+ResolveReferencesDependsOn     = 
+      
+            BeforeResolveReferences;
+            SplitProjectReferencesByType;
+            ResolveProjectReferences;
+            ResolveVCProjectReferences;
+            ResolveNativeReferences;
+            ResolveAssemblyReferences;
+            ResolveComReferences;
+            AfterResolveReferences
+        ;
+      ResolveTestReferences
+    
+RootNamespace                  = GraphicControl_Test_1
+RunAfterInstall                = true
+RunCodeAnalysisOnce            = FALSE
+RunDependsOn                   = 
+SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+SccAuxPath                     = SAK
+SccLocalPath                   = SAK
+SccProjectName                 = SAK
+SccProvider                    = SAK
+SchemaVersion                  = 2.0
+SESSIONNAME                    = Console
+SGenFilesOutputGroupDependsOn  = 
+SGenShouldGenerateSerializer   = true
+SGenUseProxyTypes              = true
+SolutionDir                    = D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\
+SolutionExt                    = .sln
+SolutionFileName               = GraphicControl_Test_1.sln
+SolutionName                   = GraphicControl_Test_1
+SolutionPath                   = D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\GraphicControl_Test_1.sln
+SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+SystemDrive                    = C:
+SystemRoot                     = C:\Windows
+TargetCulture                  = *
+TargetDeployManifestFileName   = GraphicControl_Test_1.application
+TargetDir                      = @(_OutputPathItem->'%(FullPath)')
+TargetExt                      = .exe
+TargetFileName                 = GraphicControl_Test_1.exe
+TargetFrameworkVersion         = v3.5
+TargetName                     = GraphicControl_Test_1
+TargetPath                     = @(_OutputPathItem->'%(FullPath)GraphicControl_Test_1.exe')
+TaskKeyToken                   = 31bf3856ad364e35
+TaskVersion                    = 3.0.0.0
+TEMP                           = C:\Users\OuroChan\AppData\Local\Temp
+TMP                            = C:\Users\OuroChan\AppData\Local\Temp
+TMPDIR                         = C:\Users\OuroChan\AppData\Local\Temp
+UnloadProjectsOnCompletion     = false
+UnmanagedRegistrationDependsOn = 
+UnmanagedUnregistrationDependsOn = 
+UseHostCompilerIfAvailable     = true
+USERDOMAIN                     = OuroChan-PC
+USERNAME                       = OuroChan
+USERPROFILE                    = C:\Users\OuroChan
+UseSourcePath                  = true
+Version                        = 1.0.0.0
+VisualStudioDir                = D:\Win7 System's\Documents\Visual Studio 2008
+VS100COMNTOOLS                 = C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\
+VS90COMNTOOLS                  = E:\Program Files\Microsoft Visual Studio 9.0\Common7\Tools\
+VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs></VSIDEResolvedNonMSBuildProjectOutputs>
+WarningLevel                   = 4
+WebReference_EnableLegacyEventingModel = false
+WebReference_EnableProperties  = true
+WebReference_EnableSQLTypes    = true
+windir                         = C:\Windows
+WinFXNativePath                = C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+WinFXWowPath                   = C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0
+
+Initial Items:
+_ApplicationManifestFinal
+    bin\Release\GraphicControl_Test_1.exe.manifest
+_DebugSymbolsIntermediatePath
+    obj\Release\GraphicControl_Test_1.pdb
+_DebugSymbolsOutputPath
+    bin\Release\GraphicControl_Test_1.pdb
+_DeploymentManifestEntryPoint
+    obj\Release\GraphicControl_Test_1.exe
+_OutputPathItem
+    bin\Release\
+_ResolveComReferenceCache
+    obj\Release\GraphicControl_Test_1.csproj.ResolveComReference.cache
+_UnmanagedRegistrationCache
+    obj\GraphicControl_Test_1.csproj.UnmanagedRegistration.cache
+AppConfigFileDestination
+    bin\Release\GraphicControl_Test_1.exe.config
+ApplicationManifest
+    obj\Release\GraphicControl_Test_1.exe.manifest
+AvailableItemName
+    ApplicationDefinition
+    EntityDeploy
+    Page
+    Resource
+    SplashScreen
+BuiltProjectOutputGroupKeyOutput
+    D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe
+Compile
+    CoordinatesUI.cs
+    Form1.cs
+    Form1.Designer.cs
+    Program.cs
+    Properties\AssemblyInfo.cs
+    Properties\Resources.Designer.cs
+    Properties\Settings.Designer.cs
+DebugSymbolsProjectOutputGroupOutput
+    D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb
+DeployManifest
+    obj\Release\GraphicControl_Test_1.application
+EmbeddedResource
+    Form1.resx
+    Properties\Resources.resx
+IntermediateAssembly
+    obj\Release\GraphicControl_Test_1.exe
+None
+    Properties\Settings.settings
+Reference
+    GraphicsControls, Version=1.0.2203.19933, Culture=neutral
+    System
+    System.Core
+    System.Data
+    System.Data.DataSetExtensions
+    System.Deployment
+    System.Drawing
+    System.Windows.Forms
+    System.Xml
+    System.Xml.Linq
+
+Building with tools version "3.5".
+Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+  Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+  Task "Message"
+    Configuration=Release
+  Done executing task "Message".
+  Task "Message"
+    Platform=AnyCPU
+  Done executing task "Message".
+  Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('bin\Release\' != '' and !HasTrailingSlash('bin\Release\')).
+  Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+  Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('obj\Release\' != '' and !HasTrailingSlash('obj\Release\')).
+Done building target "_CheckForInvalidConfigurationAndPlatform" in project "GraphicControl_Test_1.csproj".
+Target "EntityDeploy" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Data.Entity.targets":
+  Task "EntityDeploy"
+    Processing 0 EDMX files.
+    Finished processing 0 EDMX files.
+  Done executing task "EntityDeploy".
+Done building target "EntityDeploy" in project "GraphicControl_Test_1.csproj".
+Target "BeforeBuild" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "BeforeBuild" in project "GraphicControl_Test_1.csproj".
+Target "BuildOnlySettings" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "BuildOnlySettings" in project "GraphicControl_Test_1.csproj".
+Target "GetFrameworkPaths" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "GetFrameworkPath"
+  Done executing task "GetFrameworkPath".
+  Task "GetFrameworkSdkPath"
+  Done executing task "GetFrameworkSdkPath".
+Done building target "GetFrameworkPaths" in project "GraphicControl_Test_1.csproj".
+Target "PrepareForBuild" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "FindAppConfigFile"
+  Done executing task "FindAppConfigFile".
+  Task "MakeDir"
+  Done executing task "MakeDir".
+Done building target "PrepareForBuild" in project "GraphicControl_Test_1.csproj".
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "BeforeResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "BeforeResolveReferences" in project "GraphicControl_Test_1.csproj".
+Target "SplitProjectReferencesByType" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+Target "SplitProjectReferencesByType" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+Target "_SplitProjectReferencesByFileExistence" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(NonVCProjectReference)'!='') was evaluated as ('true'=='true' and ''!='').
+Done building target "_SplitProjectReferencesByFileExistence" in project "GraphicControl_Test_1.csproj".
+Target "ResolveProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "MSBuild" skipped, due to false condition; ('@(NonVCProjectReference)'!='' and ('$(BuildingSolutionFile)' == 'true' or '$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as (''!='' and ('' == 'true' or 'true' == 'true' or 'true' != 'true') and '' != '').
+  Task "MSBuild" skipped, due to false condition; ('@(NonVCProjectReference)'!='' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildingSolutionFile)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as (''!='' and 'true' != 'true' and '' != 'true' and 'true' == 'true' and '' != '').
+  Task "MSBuild" skipped, due to false condition; ('@(NonVCProjectReference)'!='' and '$(BuildingProject)'=='true' and '@(_MSBuildProjectReferenceExistent)'!='') was evaluated as (''!='' and 'true'=='true' and ''!='').
+  Task "Warning" skipped, due to false condition; ('@(NonVCProjectReference)'!='' and '@(_MSBuildProjectReferenceNonexistent)'!='') was evaluated as (''!='' and ''!='').
+Done building target "ResolveProjectReferences" in project "GraphicControl_Test_1.csproj".
+Target "SplitProjectReferencesByType" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+Target "ResolveVCProjectReferences" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(VCProjectReference)'!='') was evaluated as ('true'=='true' and ''!='').
+  Task "ResolveVCProjectOutput" skipped, due to false condition; ('$(BuildingSolutionFile)'=='true' and '@(VCProjectReference)'!='') was evaluated as (''=='true' and ''!='').
+  Task "Error" skipped, due to false condition; ('$(BuildingSolutionFile)'!='true' and '$(BuildingInsideVisualStudio)'!='true' and '@(VCProjectReference)'!='') was evaluated as (''!='true' and 'true'!='true' and ''!='').
+Done building target "ResolveVCProjectReferences" in project "GraphicControl_Test_1.csproj".
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "GetFrameworkPaths" skipped. Previously built successfully.
+Target "GetWinFXPath" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.WinFX.targets":
+  Task "GetWinFXPath"
+    
+    
+    Microsoft (R) 生成任务“GetWinFXPath”版本“3.0.6920.4902 built by: NetFXw7”。
+    版权所有(C) Microsoft Corporation 2005。保留所有权利。
+    
+    
+  Done executing task "GetWinFXPath".
+Done building target "GetWinFXPath" in project "GraphicControl_Test_1.csproj".
+Target "GetReferenceAssemblyPaths" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "GetReferenceAssemblyPaths" in project "GraphicControl_Test_1.csproj".
+Target "PrepareForBuild" skipped. Previously built successfully.
+Target "ResolveAssemblyReferences" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "ResolveAssemblyReference"
+    Assemblies:
+        GraphicsControls, Version=1.0.2203.19933, Culture=neutral
+            HintPath = '..\..\GraphicsControls.dll'
+            SpecificVersion = 'False'
+        System
+        System.Core
+        System.Xml.Linq
+        System.Data.DataSetExtensions
+        System.Data
+        System.Deployment
+        System.Drawing
+        System.Windows.Forms
+        System.Xml
+    AssemblyFiles:
+    CandidateAssemblyFiles:
+    TargetFrameworkDirectories:
+        C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\,C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0,C:\Windows\Microsoft.NET\Framework\v3.5,C:\Windows\Microsoft.NET\Framework\v3.0,C:\Windows\Microsoft.NET\Framework\v2.0.50727
+    InstalledAssemblyTables:
+    IgnoreInstalledAssemblyTable:
+        False
+    SearchPaths:
+        {CandidateAssemblyFiles}
+        {HintPathFromItem}
+        {TargetFrameworkDirectory}
+        {Registry:Software\Microsoft\.NetFramework,v3.5,AssemblyFoldersEx}
+        {AssemblyFolders}
+        {GAC}
+        {RawFileName}
+        bin\Release\
+    AllowedAssemblyExtensions:
+        .exe
+        .dll
+    AllowedRelatedFileExtensions:
+        .pdb
+        .xml
+    AppConfigFile:
+        
+    AutoUnify:
+        False
+    TargetProcessorArchitecture:
+        x86
+    StateFile:
+        obj\Release\ResolveAssemblyReference.cache
+    InstalledAssemblySubsetTables:
+    IgnoreInstalledAssemblySubsetTable:
+        False
+    TargetFrameworkSubsets:
+    FullTargetFrameworkSubsetNames:
+        Full
+    No TargetFramework subset exclusion list will be generated. No TargetFrameworkSubsets were provided and no additional subset files were passed in to InstalledAssemblySubsetTables.
+    Primary reference "System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Primary reference "System.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+        Resolved file path is "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Deployment.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Deployment.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Deployment.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Deployment.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Deployment.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Deployment.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Deployment.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Deployment.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Unified primary reference "System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Using this version instead of original version "1.0.5000.0" because there is a more recent version of this framework file.
+        Resolved file path is "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Windows.Forms.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Windows.Forms.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Windows.Forms.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Windows.Forms.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Windows.Forms.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Windows.Forms.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Windows.Forms.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Windows.Forms.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Unified primary reference "System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Using this version instead of original version "1.0.5000.0" because there is a more recent version of this framework file.
+        Resolved file path is "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Data.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Data.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Data.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Data.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Data.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Data.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Primary reference "System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Xml.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Xml.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Xml.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Xml.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Xml.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Xml.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Primary reference "System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Unified primary reference "System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Using this version instead of original version "1.0.5000.0" because there is a more recent version of this framework file.
+        Resolved file path is "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Unified primary reference "System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+        Using this version instead of original version "1.0.5000.0" because there is a more recent version of this framework file.
+        Resolved file path is "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Drawing.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Drawing.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Drawing.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\System.Drawing.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Drawing.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\System.Drawing.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Drawing.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\System.Drawing.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Primary reference "System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+        Resolved file path is "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll".
+        Reference found at search path location "{TargetFrameworkDirectory}".
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.exe", but it didn't exist.
+        This reference is not "CopyLocal" because it's a prerequisite file.
+    Primary reference "GraphicsControls, Version=1.0.2203.19933, Culture=neutral, PublicKeyToken=null".
+        Resolved file path is "bin\Release\GraphicsControls.dll".
+        Reference found at search path location "bin\Release\".
+            For SearchPath "{HintPathFromItem}".
+            Considered "..\..\GraphicsControls.dll", but it didn't exist.
+            For SearchPath "{TargetFrameworkDirectory}".
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.5\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v3.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\Framework\v2.0.50727\GraphicsControls.dll", but it didn't exist.
+            For SearchPath "{Registry:Software\Microsoft\.NetFramework,v3.5,AssemblyFoldersEx}".
+            Considered "C:\Program Files\Microsoft Chart Controls\Assemblies\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft Chart Controls\Assemblies\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft.NET\Primary Interop Assemblies\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft.NET\Primary Interop Assemblies\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Common Files\Microsoft Shared\MSEnv\PublicAssemblies\GraphicsControls.dll", but it didn't exist.
+            Considered "E:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\GraphicsControls.exe", but it didn't exist.
+            Considered "E:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PublicAssemblies\GraphicsControls.dll", but it didn't exist.
+            Considered "E:\Program Files\Microsoft Visual Studio 9.0\ReportViewer\GraphicsControls.exe", but it didn't exist.
+            Considered "E:\Program Files\Microsoft Visual Studio 9.0\ReportViewer\GraphicsControls.dll", but it didn't exist.
+            Considered "e:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\GraphicsControls.exe", but it didn't exist.
+            Considered "e:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\ReferenceAssemblies\v2.0\GraphicsControls.dll", but it didn't exist.
+            For SearchPath "{AssemblyFolders}".
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2911.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2910.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft Synchronization Services\ADO.NET\v1.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft Synchronization Services\ADO.NET\v1.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\100\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft.NET\ADOMD.NET\100\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2909.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2905.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2908.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2904.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\DTS\PipelineComponents\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\DTS\PipelineComponents\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\DTS\ForEachEnumerators\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\DTS\ForEachEnumerators\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\SDK\Assemblies\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2907.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server Compact Edition\v3.5\Desktop\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server Compact Edition\v3.5\Desktop\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2903.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2906.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft WSE\v3.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft WSE\v3.0\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\DTS\Tasks\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Program Files\Microsoft SQL Server\100\DTS\Tasks\GraphicsControls.dll", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\GraphicsControls.exe", but it didn't exist.
+            Considered "C:\Windows\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\GraphicsControls.dll", but it didn't exist.
+            For SearchPath "{GAC}".
+            Considered "GraphicsControls", which was not found in the GAC.
+            For SearchPath "{RawFileName}".
+            Considered treating "GraphicsControls, Version=1.0.2203.19933, Culture=neutral" as a file name, but it didn't exist.
+            For SearchPath "bin\Release\".
+            Considered "bin\Release\GraphicsControls.exe", but it didn't exist.
+  Done executing task "ResolveAssemblyReference".
+Done building target "ResolveAssemblyReferences" in project "GraphicControl_Test_1.csproj".
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "AfterResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "AfterResolveReferences" in project "GraphicControl_Test_1.csproj".
+Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+Target "ResolveReferences" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "ResolveReferences" in project "GraphicControl_Test_1.csproj".
+Target "MarkupCompilePass1" skipped, due to false condition; ('@(Page)@(ApplicationDefinition)' != '' ) was evaluated as ('' != '' ).
+Target "AfterMarkupCompilePass1" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.WinFX.targets":
+Done building target "AfterMarkupCompilePass1" in project "GraphicControl_Test_1.csproj".
+Target "MarkupCompilePass2ForMainAssembly" skipped, due to false condition; ('$(_RequireMCPass2ForMainAssembly)' == 'true' ) was evaluated as ('false' == 'true' ).
+Target "FileClassification" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.WinFX.targets":
+  Task "FileClassifier" skipped, due to false condition; ('@(GeneratedBaml)@(Resource)@(Font)' != '') was evaluated as ('' != '').
+  Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+  Task "Message" skipped, due to false condition; ('$(MSBuildTargetsVerbose)'=='true') was evaluated as (''=='true').
+Done building target "FileClassification" in project "GraphicControl_Test_1.csproj".
+Target "MainResourcesGeneration" skipped, due to false condition; ('@(MainEmbeddedFiles)'!='') was evaluated as (''!='').
+Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+Target "AssignTargetPaths" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+  Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.settings'=='.manifest').
+Done building target "AssignTargetPaths" in project "GraphicControl_Test_1.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+  Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+  Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+  Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+  Task "AssignCulture"
+    Culture of "" was assigned to file "Form1.resx".
+    Culture of "" was assigned to file "Properties\Resources.resx".
+  Done executing task "AssignCulture".
+Done building target "SplitResourcesByCulture" in project "GraphicControl_Test_1.csproj".
+Target "CreateManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.CSharp.targets":
+  Task "CreateCSharpManifestResourceName"
+    Root namespace is 'GraphicControl_Test_1'.
+    Resource file 'Form1.resx' depends on 'Form1.cs'.
+    Resource file 'Form1.resx' gets manifest resource name 'GraphicControl_Test_1.GraphicsCtrlTest'.
+    Resource file 'Properties\Resources.resx' doesn't depend on any other file.
+    Resource file 'Properties\Resources.resx' gets manifest resource name 'GraphicControl_Test_1.Properties.Resources'.
+  Done executing task "CreateCSharpManifestResourceName".
+  Task "CreateCSharpManifestResourceName" skipped, due to false condition; ('%(EmbeddedResource.ManifestResourceName)' == '' and '%(EmbeddedResource.WithCulture)' == 'true' and '%(EmbeddedResource.Type)' == 'Non-Resx') was evaluated as ('' == '' and 'false' == 'true' and 'Resx' == 'Non-Resx').
+Done building target "CreateManifestResourceNames" in project "GraphicControl_Test_1.csproj".
+Target "CreateCustomManifestResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "CreateCustomManifestResourceNames" in project "GraphicControl_Test_1.csproj".
+Target "PrepareResourceNames" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "PrepareResourceNames" in project "GraphicControl_Test_1.csproj".
+Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+Target "SplitResourcesByCulture" skipped. Previously built successfully.
+Target "BeforeResGen" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "BeforeResGen" in project "GraphicControl_Test_1.csproj".
+Target "CoreResGen" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "GenerateResource"
+    No resources are out of date with respect to their source files. Skipping resource generation.
+  Done executing task "GenerateResource".
+Done building target "CoreResGen" in project "GraphicControl_Test_1.csproj".
+Target "AfterResGen" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "AfterResGen" in project "GraphicControl_Test_1.csproj".
+Target "ResGen" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "ResGen" in project "GraphicControl_Test_1.csproj".
+Target "CompileLicxFiles" skipped, due to false condition; ('@(_LicxFile)'!='') was evaluated as (''!='').
+Target "PrepareRdlFiles" in file "C:\Program Files\MSBuild\Microsoft\VisualStudio\v9.0\ReportingServices\Microsoft.ReportingServices.targets":
+  Task "CreateItem" skipped, due to false condition; ('%(Extension)'=='.rdlc') was evaluated as ('.resx'=='.rdlc').
+Done building target "PrepareRdlFiles" in project "GraphicControl_Test_1.csproj".
+Target "RunRdlCompiler" skipped, due to false condition; ('@(RdlFile)'!='') was evaluated as (''!='').
+Target "CompileRdlFiles" in file "C:\Program Files\MSBuild\Microsoft\VisualStudio\v9.0\ReportingServices\Microsoft.ReportingServices.targets":
+Done building target "CompileRdlFiles" in project "GraphicControl_Test_1.csproj".
+Target "PrepareResources" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "PrepareResources" in project "GraphicControl_Test_1.csproj".
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveReferences" skipped. Previously built successfully.
+Target "ResolveKeySource" skipped, due to false condition; ($(SignManifests) == 'true' or $(SignAssembly) == 'true') was evaluated as ( == 'true' or  == 'true').
+Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+Target "_SetExternalWin32ManifestProperties" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "GetFrameworkPath"
+  Done executing task "GetFrameworkPath".
+Done building target "_SetEmbeddedWin32ManifestProperties" in project "GraphicControl_Test_1.csproj".
+Target "SetWin32ManifestProperties" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "SetWin32ManifestProperties" in project "GraphicControl_Test_1.csproj".
+Target "_GenerateCompileInputs" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithNoCulture)'!='' and '%(ManifestResourceWithNoCulture.EmittedForCompatibilityOnly)'=='') was evaluated as ('obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;obj\Release\GraphicControl_Test_1.Properties.Resources.resources'!='' and 'true'=='').
+  Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithNoCultureOnDisk)'!='' and '%(ManifestNonResxWithNoCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateCompileInputs" in project "GraphicControl_Test_1.csproj".
+Target "BeforeCompile" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "BeforeCompile" in project "GraphicControl_Test_1.csproj".
+Target "_TimeStampBeforeCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'WinExe'=='library')).
+Target "DesignTimeMarkupCompilation" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.WinFX.targets":
+  Task "CallTarget" skipped, due to false condition; ('$(BuildingProject)' != 'true') was evaluated as ('true' != 'true').
+Done building target "DesignTimeMarkupCompilation" in project "GraphicControl_Test_1.csproj".
+Target "_ComputeNonExistentFileProperty" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "_ComputeNonExistentFileProperty" in project "GraphicControl_Test_1.csproj".
+Target "CoreCompile" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.CSharp.targets":
+  Building target "CoreCompile" completely.
+  Output file "obj\Release\GraphicControl_Test_1.pdb" does not exist.
+  Task "Csc"
+    Command:
+    C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /errorreport:prompt /warn:4 /define:TRACE /reference:bin\Release\GraphicsControls.dll /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\GraphicControl_Test_1.exe /resource:obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources /resource:obj\Release\GraphicControl_Test_1.Properties.Resources.resources /target:winexe CoordinatesUI.cs Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+
+编译完成 -- 0 个错误，0 个警告
+  Done executing task "Csc".
+Done building target "CoreCompile" in project "GraphicControl_Test_1.csproj".
+Target "_TimeStampAfterCompile" skipped, due to false condition; ('$(RunPostBuildEvent)'=='OnOutputUpdated' or ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library')) was evaluated as (''=='OnOutputUpdated' or (''=='true' and 'WinExe'=='library')).
+Target "AfterCompile" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "AfterCompile" in project "GraphicControl_Test_1.csproj".
+Target "PrepareResourcesForSatelliteAssemblies" skipped, due to false condition; ('$(UICulture)' != '') was evaluated as ('' != '').
+Target "MergeLocalizationDirectives" skipped, due to false condition; ('@(GeneratedLocalizationFiles)' !='') was evaluated as ('' !='').
+Target "AfterCompileWinFX" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.WinFX.targets":
+Done building target "AfterCompileWinFX" in project "GraphicControl_Test_1.csproj".
+Target "_AfterCompileWinFXInternal" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.WinFX.targets":
+Done building target "_AfterCompileWinFXInternal" in project "GraphicControl_Test_1.csproj".
+Target "Compile" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "Compile" in project "GraphicControl_Test_1.csproj".
+Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                    ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                   Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'WinExe' != 'library') or
+                    ('' == '')) and
+                   Exists('obj\GraphicControl_Test_1.csproj.UnmanagedRegistration.cache')).
+Target "GenerateSerializationAssemblies" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Target "_GenerateSatelliteAssemblyInputs" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+  Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+Done building target "_GenerateSatelliteAssemblyInputs" in project "GraphicControl_Test_1.csproj".
+Target "CreateManifestResourceNames" skipped. Previously built successfully.
+Target "ComputeIntermediateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "ComputeIntermediateSatelliteAssemblies" in project "GraphicControl_Test_1.csproj".
+Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+Target "CreateSatelliteAssemblies" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "CreateSatelliteAssemblies" in project "GraphicControl_Test_1.csproj".
+Target "GenerateManifests" skipped, due to false condition; ('$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='') was evaluated as (''=='true' or ''!='' or ''!='').
+Target "GetTargetPath" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Building target "GetTargetPath" completely.
+  No input files were specified.
+Done building target "GetTargetPath" in project "GraphicControl_Test_1.csproj".
+Target "ComputeIntermediateSatelliteAssemblies" skipped. Previously built successfully.
+Target "_CopyFilesMarkedCopyLocal" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "Copy"
+    Did not copy from file "bin\Release\GraphicsControls.dll" to file "bin\Release\GraphicsControls.dll" because the "SkipUnchangedFiles" parameter was set to "true" in the project and the files' sizes and timestamps match.
+  Done executing task "Copy".
+Done building target "_CopyFilesMarkedCopyLocal" in project "GraphicControl_Test_1.csproj".
+Target "AssignTargetPaths" skipped. Previously built successfully.
+Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+Target "GetCopyToOutputDirectoryItems" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false').
+  Task "AssignTargetPath"
+  Done executing task "AssignTargetPath".
+Done building target "GetCopyToOutputDirectoryItems" in project "GraphicControl_Test_1.csproj".
+Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopySourceItemsToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "_CopySourceItemsToOutputDirectory" in project "GraphicControl_Test_1.csproj".
+Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+Target "_CheckForCompileOutputs" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "_CheckForCompileOutputs" in project "GraphicControl_Test_1.csproj".
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Target "CopyFilesToOutputDirectory" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "Copy"
+    Copying file from "obj\Release\GraphicControl_Test_1.exe" to "bin\Release\GraphicControl_Test_1.exe".
+    Command:
+    copy /y "obj\Release\GraphicControl_Test_1.exe" "bin\Release\GraphicControl_Test_1.exe"
+  Done executing task "Copy".
+  Task "Message"
+    GraphicControl_Test_1 -> D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe
+  Done executing task "Message".
+  Task "Copy"
+  Done executing task "Copy".
+  Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+  Task "Copy"
+    Copying file from "obj\Release\GraphicControl_Test_1.pdb" to "bin\Release\GraphicControl_Test_1.pdb".
+    Command:
+    copy /y "obj\Release\GraphicControl_Test_1.pdb" "bin\Release\GraphicControl_Test_1.pdb"
+  Done executing task "Copy".
+  Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+  Task "Copy"
+  Done executing task "Copy".
+  Task "Copy"
+  Done executing task "Copy".
+Done building target "CopyFilesToOutputDirectory" in project "GraphicControl_Test_1.csproj".
+Target "PrepareForRun" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "PrepareForRun" in project "GraphicControl_Test_1.csproj".
+Target "UnmanagedRegistration" skipped, due to false condition; ('$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library') was evaluated as (''=='true' and 'WinExe'=='library').
+Target "_CheckForCompileOutputs" skipped. Previously built successfully.
+Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "ReadLinesFromFile"
+  Done executing task "ReadLinesFromFile".
+  Task "ConvertToAbsolutePath"
+  Done executing task "ConvertToAbsolutePath".
+  Task "FindUnderPath"
+    Comparison path is "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1".
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is inside the comparison path.
+  Done executing task "FindUnderPath".
+  Task "FindUnderPath"
+    Comparison path is "bin\Release\".
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is inside the comparison path.
+  Done executing task "FindUnderPath".
+  Task "FindUnderPath"
+    Comparison path is "obj\Release\".
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is inside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is outside the comparison path.
+  Done executing task "FindUnderPath".
+  Task "RemoveDuplicates"
+  Done executing task "RemoveDuplicates".
+Done building target "_CleanGetCurrentAndPriorFileWrites" in project "GraphicControl_Test_1.csproj".
+Target "IncrementalClean" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "FindUnderPath"
+    Comparison path is "bin\Release\".
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is outside the comparison path.
+  Done executing task "FindUnderPath".
+  Task "FindUnderPath"
+    Comparison path is "obj\Release\".
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb" is outside the comparison path.
+    Path "D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll" is outside the comparison path.
+  Done executing task "FindUnderPath".
+  Task "Delete"
+  Done executing task "Delete".
+  Task "RemoveDuplicates"
+  Done executing task "RemoveDuplicates".
+  Task "WriteLinesToFile" skipped, due to false condition; ('@(_CleanUnfilteredPriorFileWrites)'!='@(_CleanUniqueRemainingFileWritesAfterIncrementalClean)') was evaluated as ('D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb'!='D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]绘制坐标轴\坐标轴绘制测试\GraphicControl_Test_1\bin\Release\GraphicsControls.dll;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.pdb;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\ResolveAssemblyReference.cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.GraphicsCtrlTest.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.Properties.Resources.resources;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\obj\Release\GraphicControl_Test_1.csproj.GenerateResource.Cache;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.exe;D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\bin\Release\GraphicControl_Test_1.pdb').
+Done building target "IncrementalClean" in project "GraphicControl_Test_1.csproj".
+Target "PostBuildEvent" skipped, due to false condition; (
+            '$(PostBuildEvent)'!=''
+            and
+            (
+                '$(RunPostBuildEvent)'!='OnOutputUpdated'
+                or
+                '$(_AssemblyTimestampBeforeCompile)'!='$(_AssemblyTimestampAfterCompile)'
+            )
+        ) was evaluated as (
+            ''!=''
+            and
+            (
+                ''!='OnOutputUpdated'
+                or
+                ''!=''
+            )
+        ).
+Target "CoreBuild" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Task "CallTarget" skipped, due to false condition; ('$(UnloadProjectsOnCompletion)'=='true') was evaluated as ('false'=='true').
+  Task "CallTarget" skipped, due to false condition; ('$(UnloadProjectsOnCompletion)'=='true') was evaluated as ('false'=='true').
+  Task "CallTarget" skipped, due to false condition; ('$(UnloadProjectsOnCompletion)'=='true') was evaluated as ('false'=='true').
+Done building target "CoreBuild" in project "GraphicControl_Test_1.csproj".
+Target "AfterBuild" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+Done building target "AfterBuild" in project "GraphicControl_Test_1.csproj".
+Target "Build" in file "C:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets":
+  Building target "Build" completely.
+  No input files were specified.
+Done building target "Build" in project "GraphicControl_Test_1.csproj".
+
+Done building project "GraphicControl_Test_1.csproj".
+
+Project Performance Summary:
+      737 ms  D:\Win7 System's\Desktops\[open]COM SCI UART\[open]融合\GraphicControl_Test_1\GraphicControl_Test_1.csproj   1 calls
+
+Target Performance Summary:
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  DesignTimeMarkupCompilation                1 calls
+        0 ms  GetTargetPath                              1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  BeforeResGen                               1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  EntityDeploy                               1 calls
+        0 ms  ComputeIntermediateSatelliteAssemblies     1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  AfterCompile                               1 calls
+        0 ms  Compile                                    1 calls
+        0 ms  _ComputeNonExistentFileProperty            1 calls
+        0 ms  SetWin32ManifestProperties                 1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  AfterResGen                                1 calls
+        0 ms  _AfterCompileWinFXInternal                 1 calls
+        0 ms  BeforeCompile                              1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  PrepareResources                           1 calls
+        0 ms  CoreBuild                                  1 calls
+        0 ms  AfterMarkupCompilePass1                    1 calls
+        0 ms  ResGen                                     1 calls
+        0 ms  CompileRdlFiles                            1 calls
+        0 ms  PrepareRdlFiles                            1 calls
+        0 ms  FileClassification                         1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BuildOnlySettings                          1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  PrepareForRun                              1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  AfterCompileWinFX                          1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  BeforeBuild                                1 calls
+        1 ms  Build                                      1 calls
+        1 ms  GetWinFXPath                               1 calls
+        1 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        1 ms  _SetEmbeddedWin32ManifestProperties        1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  SplitResourcesByCulture                    1 calls
+        1 ms  ResolveVCProjectReferences                 1 calls
+        1 ms  CreateManifestResourceNames                1 calls
+        1 ms  _CopyFilesMarkedCopyLocal                  1 calls
+        2 ms  GetCopyToOutputDirectoryItems              1 calls
+        3 ms  _CleanGetCurrentAndPriorFileWrites         1 calls
+        3 ms  GetFrameworkPaths                          1 calls
+       10 ms  CoreResGen                                 1 calls
+       15 ms  CopyFilesToOutputDirectory                 1 calls
+       29 ms  IncrementalClean                           1 calls
+       49 ms  _GenerateCompileInputs                     1 calls
+       56 ms  ResolveAssemblyReferences                  1 calls
+      490 ms  CoreCompile                                1 calls
+
+Task Performance Summary:
+        0 ms  EntityDeploy                               1 calls
+        0 ms  AssignTargetPath                           5 calls
+        0 ms  FindAppConfigFile                          1 calls
+        0 ms  ConvertToAbsolutePath                      1 calls
+        0 ms  AssignCulture                              1 calls
+        0 ms  Delete                                     1 calls
+        0 ms  Message                                    3 calls
+        0 ms  MakeDir                                    1 calls
+        0 ms  GetFrameworkPath                           2 calls
+        1 ms  GetWinFXPath                               1 calls
+        1 ms  RemoveDuplicates                           2 calls
+        1 ms  GetFrameworkSdkPath                        1 calls
+        1 ms  CreateCSharpManifestResourceName           1 calls
+        1 ms  ReadLinesFromFile                          1 calls
+        2 ms  FindUnderPath                              5 calls
+        9 ms  GenerateResource                           1 calls
+       14 ms  Copy                                       6 calls
+       54 ms  ResolveAssemblyReference                   1 calls
+      490 ms  Csc                                        1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:00.74
+========== 生成: 成功或最新 1 个，失败 0 个，跳过 0 个 ==========
